@@ -36,9 +36,27 @@
 #calculator {
   margin-top: 60px;
   margin-left: 360px;
-  background-color: black;
+  background-color:#1fc8db;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); 
   width: fit-content;
   height: fit-content;
   padding: 20px;
   border-radius: 20px;
+}
+
+.btn-circle.btn-md { 
+  width: 50px; 
+  height: 50px; 
+  padding: 7px 10px; 
+  border-radius: 25px; 
+  font-size: 13px; 
+  text-align: center; 
+  background-color: white;
+  color: black;
+}
+
+#equal-btn {
+  background-color: red;
+  color: white;
+  font-size: 20px;
 }
